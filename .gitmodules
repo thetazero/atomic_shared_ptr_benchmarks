@@ -1,0 +1,9 @@
+[submodule "folly"]
+	path = folly
+	url = https://github.com/facebook/folly
+[submodule "atomic_shared_ptr"]
+	path = atomic_shared_ptr
+	url = https://github.com/DanielLiamAnderson/atomic_shared_ptr/
+[submodule "concurrent_deferred_rc"]
+	path = concurrent_deferred_rc
+	url = https://github.com/thetazero/concurrent_deferred_rc
