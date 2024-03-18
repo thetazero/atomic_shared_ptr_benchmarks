@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sh scripts/submodules.sh
+
 cd concurrent_deferred_rc
 git checkout other_benchmarks
 git pull
