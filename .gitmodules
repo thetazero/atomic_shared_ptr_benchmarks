@@ -7,3 +7,6 @@
 [submodule "concurrent_deferred_rc"]
 	path = concurrent_deferred_rc
 	url = https://github.com/thetazero/concurrent_deferred_rc
+[submodule "parlaylib"]
+	path = parlaylib
+	url = https://github.com/cmuparlay/parlaylib
