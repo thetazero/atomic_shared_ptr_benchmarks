@@ -1,9 +1,9 @@
 #!/bin/bash
 
 mkdir -p install/folly
-mv install/folly /tmp
-mv install/fmt /tmp
-mv install/googletest /tmp
+rm -rf install/folly
+rm -rf install/fmt
+rm -rf install/googletest
 cd folly
 git checkout main
 git pull
