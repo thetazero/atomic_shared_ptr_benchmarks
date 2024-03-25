@@ -15,3 +15,13 @@
 
 ### Maybe Todo:
 - Free anthony williams free
+
+
+### Run everything
+```sh
+sh scripts/submodules.sh
+sh install_folly.sh
+sh scripts/parlay/install.sh
+sh scripts/throughput/install.sh
+cd concurrent_deffered_rc/build
+```
