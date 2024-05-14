@@ -3,7 +3,7 @@
 mkdir -p install/parlaylib
 sh scripts/submodules.sh
 cd parlaylib
-git checkout main
+git checkout master
 git pull
 mkdir -p build
 cd build
