@@ -5,7 +5,7 @@ rm -rf install/folly
 rm -rf install/fmt
 rm -rf install/googletest
 cd folly
-git checkout main
+git checkout 3a79c1f # This commit should work, later commits seen to have issues building
 git pull
 mkdir -p install
 # ./build/fbcode_builder/getdeps.py install-system-deps --recursive
