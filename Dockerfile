@@ -6,7 +6,9 @@ RUN DEBIAN_FRONTEND=noninteractive \
   && apt install -y python3 git cmake ca-certificates g++-12 build-essential \
   libssl-dev libboost-all-dev ninja-build libsodium-dev libdouble-conversion-dev \
   liblz4-dev libdwarf-dev liblzma-dev libiberty-dev libgflags-dev libzstd-dev \
-  libsnappy-dev libunwind-dev libaio-dev libgoogle-glog-dev libgmock-dev \
+  libsnappy-dev libunwind-dev libaio-dev libgoogle-glog-dev libgmock-dev python3-pip \
+  numactl libjemalloc-dev \
   && rm -rf /var/lib/apt/lists/*
+RUN pip3 install matplotlib
 RUN useradd -ms /bin/bash apprunner
 USER apprunner
